@@ -1,0 +1,30 @@
+claude-image-fisher
+Copyright 2026 ArcSelf
+
+Licensed under the Apache License, Version 2.0 (the "License").
+You may obtain a copy of the License at:
+    http://www.apache.org/licenses/LICENSE-2.0
+
+---
+
+Third-party dependencies (direct):
+
+  ddgs                    Apache 2.0     DuckDuckGo image search
+  requests                Apache 2.0     HTTP client
+  beautifulsoup4          MIT            HTML parsing for SEO signal extraction
+  Pillow                  HPND / MIT     Image I/O and resampling
+  ImageHash               BSD-2-Clause   Perceptual hashing (dedup)
+  numpy                   BSD-3-Clause   Vectorized pixel math
+
+Optional (only required by generate.py):
+
+  torch                   BSD-3-Clause   Tensor backbone
+  diffusers               Apache 2.0     SDXL pipeline
+  transformers            Apache 2.0     CLIP / tokenizers
+  accelerate              Apache 2.0     Device dispatch
+  safetensors             Apache 2.0     Weight serialization
+
+The default SDXL model used by generate.py is
+"stabilityai/stable-diffusion-xl-base-1.0", licensed under the
+CreativeML Open RAIL++-M license:
+    https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/LICENSE.md

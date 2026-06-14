@@ -1,0 +1,13 @@
+ddgs>=1.9.7
+requests>=2.31.0
+beautifulsoup4>=4.12.3
+Pillow>=10.4.0
+ImageHash>=4.3.1
+numpy>=1.24
+
+# generate.py only — heavy ML stack, install separately if you don't already have it
+# torch>=2.3
+# diffusers>=0.31
+# transformers>=4.44
+# accelerate>=0.34
+# safetensors>=0.4

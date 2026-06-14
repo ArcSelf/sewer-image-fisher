@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Envs
+.venv/
+venv/
+.env
+.env.local
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Runtime output (the skill writes here by default; not source)
+out/
+generations/
+empirical/
+processed/
+
+# Local Hugging Face / model caches (huge, never check in)
+.cache/
+*.safetensors
+*.ckpt
+*.pt
