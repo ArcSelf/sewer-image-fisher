@@ -1,4 +1,7 @@
 # sewer-image-fisher
+<div align="center">
+<img width="306" height="565" alt="Pasted Graphic" src="https://github.com/user-attachments/assets/57727095-0496-429f-8bcb-ce0fb3da58d0" />
+</div>
 
 A four-stage image studio for the terminal: **fish** images from the open web (SEO-ranked), **preprocess** them into SDXL LoRA-ready datasets with Kohya caption sidecars, **generate** locally via HuggingFace `diffusers` (SDXL + LoRA), and **view** any result as terminal pointillism — palettes `dots` / `ascii` / `impasto` with optional jitter, or live denoising animation via `--stream`.
 
